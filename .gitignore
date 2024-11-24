@@ -1,0 +1,12 @@
+# Ignore specific file
+modules/__init__.py
+
+# Ignore all `.log` files
+*.log
+
+# Ignore specific folder
+/backed/
+modules/__pycache__/
+
+# Ignore all `.env` files
+*.env
