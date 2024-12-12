@@ -1,4 +1,7 @@
 {
-    "name": "SwapCodes",
-    "access": "administrator"
+    "name": "x",
+    "access": "administrator",
+    "birthdate": "xx-xx-xxxx",
+    "gender": "x",
+    "region": "x"
 }

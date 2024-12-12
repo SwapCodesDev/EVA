@@ -2,8 +2,8 @@
     "name": "eva",
     "role": "voice assistant",
     "description": "a virtual voice assistant for automation of tasks and a personal assistant",
-    "status": "listening",
-    "response": "Hello there! How can I help you today?\n",
+    "status": "offline",
     "query": "hello",
+    "response": "Hello there! How can I help you today?\n",
     "intent": "BASIC_STATEMENT"
 }
