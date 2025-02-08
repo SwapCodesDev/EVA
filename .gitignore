@@ -6,7 +6,8 @@ modules/__init__.py
 
 # Ignore specific folder
 /backed/
-modules/__pycache__/
+/venv/
+/modules/__pycache__/
 
 # Ignore all `.env` files
 *.env

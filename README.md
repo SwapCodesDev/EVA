@@ -4,7 +4,7 @@
 
 ## Requirements
 
-- [Gemini API](https://aistudio.google.com/apikey)
+- Get the [Gemini API](https://aistudio.google.com/apikey)
 
 ## Installation
 
@@ -14,14 +14,23 @@
 git clone https://github.com/SwapCodesDev/EVA.git
 ```
 
-2. Create `.env` file for storing APIs
+2. Setup a Virtual Environment. Check out the setup [here](./guide/development/VENV.md)
+
+
+3. Install modules or packages from `requirements.txt`
+``` bash
+pip install -r requirements.txt
+```
+
+
+4. Create `.env` file for storing APIs and other data
 
  ``` python
 # Gemini API
 GEN_API = "YOUR_API_KEY"
  ```
 
- 3. Run the `app.py` file
+ 5. Run the `app.py` file
 
  ## Features
- Check out the features of EVA [here](./FEATURES.md)
+ Check out the features of EVA [here](./guide/user/FEATURES.md)

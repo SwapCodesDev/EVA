@@ -2,8 +2,8 @@
     "name": "eva",
     "role": "voice assistant",
     "description": "a virtual voice assistant for automation of tasks and a personal assistant",
-    "status": "offline",
-    "query": "hello",
-    "response": "Hello there! How can I help you today?\n",
-    "intent": "BASIC_STATEMENT"
+    "status": "listening",
+    "query": "what is on my screen",
+    "response": "The screen displays a Python code editor showing a program named `app.py`.  The code is designed to make a window grab all events, start a thread to run an EVA function in the background, start a status update loop, and start the Tkinter event loop.  The bottom section shows output, including the current time (22:12:16 on November 22, 2024), a speech recognition log indicating the user said \"South City\" and then \"New York City\", and corresponding responses from the program.  A file explorer pane on the left shows various Python files related to the project.\n",
+    "intent": "SCREEN_BASED_QUERY_WHICH_REQUIRES_CONTENT_PRESENT_ON_SCREEN"
 }
