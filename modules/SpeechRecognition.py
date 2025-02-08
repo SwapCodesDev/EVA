@@ -12,14 +12,14 @@ def initialize_tts_engine(rate=140, volume=1.0, gender="default"):
 
     # Select voice based on gender preference
     if gender == 'female':
-        engine.setProperty('voice', 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_ZIRA_11.0')
+        engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_ZIRA_11.0')
     if gender == 'male':
-        engine.setProperty('voice', 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0')
+        engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0')
 
     return engine
 
 
-def listen(recognizer, microphone, timeout=10, phrase_time_limit=15):
+def listen(recognizer, microphone, timeout=10, phrase_time_limit=5):
     with microphone as source:
         print("Listening...")
         recognizer.adjust_for_ambient_noise(source, duration=1)
